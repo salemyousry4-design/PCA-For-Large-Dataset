@@ -1,3 +1,15 @@
+import subprocess
+import sys
+
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+try:
+    import plotly.express as px
+except ImportError:
+    import os
+    os.system(f"{sys.executable} -m pip install plotly")
+    import plotly.express as px
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -183,4 +195,5 @@ if data_loaded:
     # ---------------------------------------------------------
     with st.expander("📁 View Dataset (First 10 Rows)"):
         st.dataframe(df.head(10), use_container_width=True)
+
 

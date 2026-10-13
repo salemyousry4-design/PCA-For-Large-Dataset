@@ -1,6 +1,4 @@
 numpy
-scikit-learn
-matblotib
 pandas
 streamlit
 plotly

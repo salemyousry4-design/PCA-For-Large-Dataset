@@ -183,3 +183,4 @@ if data_loaded:
     # ---------------------------------------------------------
     with st.expander("📁 View Dataset (First 10 Rows)"):
         st.dataframe(df.head(10), use_container_width=True)
+

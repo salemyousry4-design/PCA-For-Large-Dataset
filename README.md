@@ -3,7 +3,7 @@
 An advanced, end-to-end Machine Learning web application utilizing **Principal Component Analysis (PCA)** for dimensionality reduction and interactive customer segment/wine classification. Deployed live on Streamlit Cloud.
 
 ## 🌟 Live Demo
-Explore the live interactive web application here: [Wine PCA Streamlit App](https://pca-for-large-dataset-git-6judfarlhqxcu8qc5kdhfo.streamlit.app)
+Explore the live interactive web application here: [Wine PCA Streamlit App](https://pca-for-large-datasetgit-6judfarlhqxcu8qc5kdhfo.streamlit.app)
 
 ---
 
